@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NAVARATHNA Cafe Menu</title>
+
+<style>
+body{
+  font-family:Arial;
+  margin:0;
+  background:#f5f5f5;
+  text-align:center;
+}
+
+header{
+  background:#8b5e3c;
+  color:white;
+  padding:15px;
+}
+
+.menu{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.card{
+  background:white;
+  width:250px;
+  margin:10px;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #ccc;
+}
+
+.price{
+  color:green;
+  font-weight:bold;
+}
+
+/* FOOTER STYLE */
+footer{
+  background:#333;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>NAVARATHNA Cafe</h1>
+  <p>RAJAPALAYAM</p>
+</header>
+
+<!-- BIRYANI -->
+<h2>🍛 BIRYANI MENU</h2>
+
+<div class="menu">
+ <div class="card">
+    <img src="images/chicken.jpg" alt="Chicken Biryani">
+    <p>Chicken Biryani - ₹99</p>
+</div>
+
+<div class="card">
+    <img src="images/egg.jpg" alt="Egg Biryani">
+    <p>Egg Biryani - ₹90</p>
+</div>
+
+<div class="card">
+    <img src="images/plain.jpg" alt="Plain Biryani">
+    <p>Plain Biryani - ₹80</p>
+</div>
+
+<div class="card">
+    <img src="images/gilma.jpg" alt="Gilma Biryani">
+    <p>Gilma Biryani - ₹120</p>
+</div>
+</div>
+
+<!-- POROTTA -->
+<h2>🥙 POROTTA MENU</h2>
+
+<div class="menu">
+ <div class="card">
+  <img src="images/bun-porotta.jpg">
+  <h3>Bun Porotta</h3>
+  <p class="price">₹30</p>
+</div>
+
+<div class="card">
+ <img src="images/nool.jpg">
+  <h3>Nool Porotta</h3>
+  <p class="price">₹30</p>
+</div>
+
+<div class="card">
+ <img src="images/role.jpg">
+  <h3>Role Chicken Porotta</h3>
+  <p class="price">₹50</p>
+</div>
+
+<div class="card">
+  <img src="images/banana.jpg">
+  <h3>Banana Leaf Chicken</h3>
+  <p class="price">₹100</p>
+</div>
+</div>
+
+<!-- GRAVY -->
+<h2>🍗 GRAVY MENU</h2>
+
+<div class="menu">
+  <div class="card">
+    <img src="images/chettinad.jpg">
+    <h3>Chettinad Chicken</h3>
+    <p class="price">₹120</p>
+  </div>
+
+  <div class="card">
+    <img src="images/pepper.jpg">
+    <h3>Pepper Chicken</h3>
+    <p class="price">₹130</p>
+  </div>
+
+  <div class="card">
+    <img src="images/andhra.jpg">
+    <h3>Andhra Chicken</h3>
+    <p class="price">₹140</p>
+  </div>
+</div>
+
+<!-- CHINESE -->
+<h2>🍜 CHINESE FOOD</h2>
+
+<div class="menu">
+  <div class="card">
+    <img src="images/chicken.jpg">
+    <h3>Chicken Rice</h3>
+    <p class="price">₹120</p>
+  </div>
+
+  <div class="card">
+    <img src="images/rice.jpg">
+    <h3>Egg Rice</h3>
+    <p class="price">₹110</p>
+  </div>
+
+  <div class="card">
+    <img src="images/noodles.jpg">
+    <h3>Chicken Noodles</h3>
+    <p class="price">₹120</p>
+  </div>
+
+  <div class="card">
+    <img src="images/egg noodles.jpg">
+    <h3>Egg Noodles</h3>
+    <p class="price">₹110</p>
+  </div>
+
+  <div class="card">
+    <img src="images/schezwan.jpg">
+    <h3>Schezwan Chicken Rice</h3>
+    <p class="price">₹130</p>
+  </div>
+</div>
+
+<!-- FRY -->
+<h2>🍗 FRY & SPECIAL ITEMS</h2>
+
+<div class="menu">
+  <div class="card">
+    <img src="images/fry.jpg">
+    <h3>Chicken Fry</h3>
+    <p class="price">₹120</p>
+  </div>
+
+  <div class="card">
+    <img src="images/pepper.jpg">
+    <h3>Pepper Chicken</h3>
+    <p class="price">₹130</p>
+  </div>
+
+  <div class="card">
+    <img src="images/chilli.jpg">
+    <h3>Chili Chicken</h3>
+    <p class="price">₹130</p>
+  </div>
+
+  <div class="card">
+    <img src="images/65.jpg">
+    <h3>Chicken 65</h3>
+    <p class="price">₹130</p>
+  </div>
+</div>
+
+<!-- DRINKS -->
+<h2>🥤 COOL DRINKS</h2>
+
+<div class="menu">
+  <div class="card">
+    <img src="images/rose.jpg">
+    <h3>Rose Milk</h3>
+    <p class="price">₹40</p>
+  </div>
+
+  <div class="card">
+    <img src="images/gold.jpg">
+    <h3>Gold Coffee</h3>
+    <p class="price">₹50</p>
+  </div>
+
+  <div class="card">
+    <img src="images/chocolate.jpg">
+    <h3>Chocolate Shake</h3>
+    <p class="price">₹90</p>
+  </div>
+</div>
+
+<!-- FOOTER (FINAL FIX) -->
+<footer>
+  <p>📍 NAVARATHNA CAFE - RAJAPALAYAM</p>
+  <p>📞 Contact: 9942227904 | 7338847904</p>
+  <p>📧 Email: navarathnacafe@gmail.com</p>
+  <p>📸 Instagram: navarathnacaferjpm</p>
+</footer>
+
+</body>
+</html>
